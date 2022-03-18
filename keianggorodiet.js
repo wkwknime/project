@@ -301,6 +301,10 @@ protected_links = protected_links.replace(” “, “”);
 a_to_vf = protected_links.split(“,”);
 
 return a_to_vf;
+     
+protected_links = “keinime.web.id,keidrakor.xyz,blogspot.com,facebook.com,twitter.com,youtube.com,goo.gl”;
+
+auto_safelink();     
 
 }
 
